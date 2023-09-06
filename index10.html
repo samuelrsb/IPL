@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let delta, a, b, c, x1, x2
+
+        a = parseInt(prompt('Digite o valor de A'))
+        b = parseInt(prompt('Digite o valor de B'))
+        c = parseInt(prompt('Digite o valor de C'))
+
+        delta = Math.pow(b, 2) - (4 * a * c)
+
+        x1 = (-b + Math.sqrt(delta)) / (2 * a)
+        x2 = (-b - Math.sqrt(delta)) / (2 * a) 
+
+        alert(`As raizes da equação proposta é igual a \nx1 = ${x1}\nx2 = ${x2}`)
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
